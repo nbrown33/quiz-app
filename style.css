@@ -1,0 +1,142 @@
+html {
+    background-color: rgb(234,224,199);
+    font-family: 'roboto', sans-serif;
+}
+.hidden {
+    visibility: hidden;
+}
+.welcome {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 22px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 35px;
+    background-color: rgb(11,142,54);
+    color: white;
+    text-align: right;
+    margin: 0;
+}
+.nav span {
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+#welcomePic {
+    width: 80%;
+    max-width: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.bottomPic {
+    width: 90%;
+    max-width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.welcome p {
+  width: 90%;
+    max-width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.startButton, .nextButton, .start-over{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(11,142,54);
+    color: white;
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    width: 150px;
+    height: 60px;
+}
+.answer{
+  display:block;
+}
+.submitAnswer {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(11,142,54);
+    color: white;
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    width: 100px;
+    height: 35px;
+}
+button:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.answer-text {
+    display: inline-block;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: rgb(11,142,54);
+}
+.question-form {
+    display: block;
+    text-align: left;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+.question-text {
+    width: 80%;
+    max-width: 500px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.question-pic {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: block;
+    width: 200px;
+}
+h1 {
+    text-align: center;
+}
+fieldset {
+    border: none;
+}
+.feedback, .results-page {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 34px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.feedback-pic {
+    width: 200px;
+    padding-bottom: 15px;
+}
+.final {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 400px;
+}
